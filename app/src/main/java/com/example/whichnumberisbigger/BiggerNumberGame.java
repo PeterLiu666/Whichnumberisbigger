@@ -6,7 +6,7 @@ public class BiggerNumberGame
     // Variables
     private int num1;
     private int num2;
-    private int score;
+    private int score = 0;
     private int lowerLimit;
     private int upperLimit;
 
@@ -15,6 +15,7 @@ public class BiggerNumberGame
     {
         this.lowerLimit = lowerLimit;
         this.upperLimit = upperLimit;
+        generateRandomNumber();
     }
 
     /* FUNCTION generateRandomNumber
